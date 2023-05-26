@@ -11,7 +11,7 @@ Adding shields would also be amazing -->
 This repository will help you get started with our spatial chat plugin in a multiplayer use case.
 
 # Overview
-This canvas project is intended to be used along with the tutorial to build a local multiplayer experience complemented by our spatial chat plugin in Unity. 
+This canvas project is intended to be used along [with the tutorial](https://dolby.io/blog/spatial-chatter-engaging-local-multiplayer-communication-for-unforgettable-virtual-experiences/) to build a local multiplayer experience complemented by our spatial chat plugin in Unity. 
 
 # Requirements 
 - Apple MacOS x64/arm64 or Microsoft Windows 10+ x64.
