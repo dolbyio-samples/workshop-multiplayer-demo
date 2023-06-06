@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Multiplayer Script
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Spatial
+      Audio","summary":"Dolby.io","pan":{"x":72.50136,"y":-36.24466},"zoom":1.0,"elements":[{"coroutine":true,"defaultValues":{},"position":{"x":-294.0,"y":-225.0},"guid":"fdb25b45-51d0-4bed-8a5f-aaeb8c0ac67c","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"defaultValues":{"ParticipantName":{"$content":"Name","$type":"System.String"}},"position":{"x":12.0,"y":-225.0},"guid":"8b6e2c7f-7ccd-4940-8254-a34c389b1b24","$version":"A","$type":"DolbyIO.Comms.Unity.DolbyIOUnit","$id":"11"},{"coroutine":false,"defaultValues":{},"position":{"x":-172.0,"y":151.0},"guid":"9e14eae5-f408-4b49-8847-79b66a666527","$version":"A","$type":"Unity.VisualScripting.Update"},{"defaultValues":{"Scale":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"Forward":{"x":0.0,"y":0.0,"z":1.0,"$type":"UnityEngine.Vector3"},"Up":{"x":0.0,"y":1.0,"z":0.0,"$type":"UnityEngine.Vector3"},"Right":{"x":1.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"ConferenceAlias":{"$content":"GDC
+      Multiplayer","$type":"System.String"},"SpatialAudioStyle":{"$content":"Shared","$type":"DolbyIO.Comms.SpatialAudioStyle"}},"position":{"x":344.0,"y":-239.0},"guid":"dd4a0433-aa09-4b0b-9681-1a7c61843d26","$version":"A","$type":"DolbyIO.Comms.Unity.SpatialConferenceUnit","$id":"15"},{"defaultValues":{"ApplicationKey":{"$content":"SDqJVWqH0VkXdUrI2wApfA==","$type":"System.String"},"AplicationSecret":{"$content":"PMsMaicopFTe7CDgyh4-V3856qleQdx_WGd-8HJ8ogM=","$type":"System.String"}},"position":{"x":-321.0,"y":-81.0},"guid":"02e3f370-9940-4c8d-bd39-af824642f9ce","$version":"A","$type":"DolbyIO.Comms.Unity.GetToken","$id":"17"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"InputTrigger","guid":"0f606f32-7452-4d32-b117-faeca0d862f7","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"OutputTrigger","destinationUnit":{"$ref":"15"},"destinationKey":"InputTrigger","guid":"7f96e140-dbf6-44e9-8428-1c48606cc463","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"TokenAction","destinationUnit":{"$ref":"11"},"destinationKey":"AccessToken","guid":"3f34984f-47d0-49ae-ad6c-fc50648d24aa","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
