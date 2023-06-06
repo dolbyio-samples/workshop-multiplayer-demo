@@ -1,5 +1,4 @@
 Library/PackageCache/com.unity.burst@1.7.3/.Runtime/hostmac/lld filter=lfs diff=lfs merge=lfs -text
 Library/PackageCache/com.unity.toolchain.macos-arm64-linux-x86_64@1.0.1/data~/payload.tar.7z filter=lfs diff=lfs merge=lfs -text
 Library/PackageCache/com.unity.burst@1.7.3/.Runtime/libburst-llvm-12.dylib filter=lfs diff=lfs merge=lfs -text
-library/packagecache/com.unity.burst@1.8.4/.Run.../libburst-llvm-14.dylib filter=lfs diff=lfs merge=lfs -text
 Library/PackageCache/com.unity.burst@1.8.4/.Runtime/libburst-llvm-14.dylib filter=lfs diff=lfs merge=lfs -text
