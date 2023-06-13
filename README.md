@@ -8,10 +8,10 @@ Adding shields would also be amazing -->
 ![Blog Picture](https://dolby.io/wp-content/uploads/2023/05/Capture-decran-2023-05-26-a-10.18.59-AM.png)
 
 # Spatial Chatter: Engaging Local Multiplayer Communication for Unforgettable Virtual Experiences
-This repository will help you get started with our spatial chat plugin in a multiplayer use case.
+This repository will help you get started building a multiplayer experience with the Dolby.io Spatial Chat plugin for Unity.
 
 # Overview
-This canvas project is intended to be used along [with the tutorial](https://dolby.io/blog/spatial-chatter-engaging-local-multiplayer-communication-for-unforgettable-virtual-experiences/) to build a local multiplayer experience complemented by our spatial chat plugin in Unity. 
+Get started building directly from this template repository by following this [written tutorial](https://dolby.io/blog/spatial-chatter-engaging-local-multiplayer-communication-for-unforgettable-virtual-experiences/).
 
 # Requirements 
 - Apple MacOS x64/arm64 or Microsoft Windows 10+ x64.
@@ -22,7 +22,6 @@ This canvas project is intended to be used along [with the tutorial](https://dol
 # Getting Started 
 With the project downloaded, navigate to Unity Hub, select Open, and browse to the project's directory on your local machine. Ensure the project is unzipped before opening it on the game engine. The editor version used for this project is 2021.3.10f1; our SDK works with any Unity version as long as Visual Scripting is installed. Bolt Visual Scripting will continue to support projects on Unity 2018, 2019, and 2020 LTS versions. A good way to check if it is integrated into your project, go to Window > Package Manager and search Visual Scripting in the packages from your project. Otherwise, at the top of the Package Manager window, there will be a "+" button; you will select "Add package by name..." and enter "com.unity.visualscripting". This is also where we will add Dolby.io's spatial chat plugin. In the same "+" button, select instead "Add package from git URL..." and paste this: https://github.com/DolbyIO/comms-sdk-unity.git. 
 
-![Capture d’écran 2023-05-23 à 10 51 48 AM](https://github.com/dolbyio-samples/workshop-multiplayer-demo/assets/112442274/c06cde2a-a108-45e6-9e24-8252918007c0)
 
 After it finishes loading, it will show up as DolbyIO Communications version 1.1.1. This is the same location where you could update the plugin in the future as you follow along with future guides from this SDK. 
 
